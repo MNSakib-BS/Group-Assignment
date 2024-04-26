@@ -1,11 +1,33 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void substraction(double firstNum, double SecondNum){
-    
+
+void substraction(double firstNum, double SecondNum){   
     double result = firstNum - SecondNum;
     cout<<"Your Result: "<<result<<endl;
 }
+
+
+
+void division(double dividend, double divisor) {
+    if (divisor != 0) {
+        double result = dividend / divisor;
+        cout<< "Your Result: "<< result<<endl; 
+    } else {
+        cout << "Error: Division by zero!" << endl;
+    }
+}
+
+int summation (int firstNumber, int secondNumber){
+    return firstNumber + secondNumber;
+}
+
+
+void multiplication (double multiplicant, double multiplier){
+    cout << "Your Result: " << multiplicant * multiplier << endl;
+}
+
+
 
 int main() {
     cout << "Enter your math expression, e.g., 5 + 2" << endl;
