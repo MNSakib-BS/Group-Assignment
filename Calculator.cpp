@@ -2,30 +2,30 @@
 using namespace std;
 
 
-void substraction(int firstNum, int SecondNum){
-    
-    int result = firstNum - SecondNum;
+void substraction(double firstNum, double SecondNum){   
+    double result = firstNum - SecondNum;
     cout<<"Your Result: "<<result<<endl;
 }
 
 
 
-int division(int dividend, int divisor) {
+void division(double dividend, double divisor) {
     if (divisor != 0) {
-        return dividend / divisor; 
+        double result = dividend / divisor;
+        cout<< "Your Result: "<< result<<endl; 
     } else {
-        std::cerr << "Error: Division by zero!" << std::endl;
-        return 0; 
+        cout << "Error: Division by zero!" << endl;
     }
 }
+
 void summation (double firstNumber, double secondNumber){
     cout<< firstNumber + secondNumber << endl;
     return ;
 }
 
 
-int multiplication (int multiplicant, int multiplier){
-    return multiplicant * multiplier;
+void multiplication (double multiplicant, double multiplier){
+    cout << "Your Result: " << multiplicant * multiplier << endl;
 }
 
 
