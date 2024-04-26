@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void substraction(int firstNum, int SecondNum){
+void substraction(double firstNum, double SecondNum){
     
-    int result = firstNum - SecondNum;
+    double result = firstNum - SecondNum;
     cout<<"Your Result: "<<result<<endl;
 }
 
