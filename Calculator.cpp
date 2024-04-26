@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 int division(int dividend, int divisor) {
     if (divisor != 0) {
         return dividend / divisor; 
@@ -8,6 +9,12 @@ int division(int dividend, int divisor) {
         std::cerr << "Error: Division by zero!" << std::endl;
         return 0; 
     }
+}
+
+
+
+int multiplication (int multiplicant, int multiplier){
+    return multiplicant * multiplier;
 }
 
 
