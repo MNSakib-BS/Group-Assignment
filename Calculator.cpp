@@ -2,9 +2,8 @@
 using namespace std;
 
 
-void substraction(int firstNum, int SecondNum){
-    
-    int result = firstNum - SecondNum;
+void substraction(double firstNum, double SecondNum){   
+    double result = firstNum - SecondNum;
     cout<<"Your Result: "<<result<<endl;
 }
 
