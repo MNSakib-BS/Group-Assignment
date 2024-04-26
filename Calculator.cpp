@@ -21,6 +21,7 @@ string numberClassifier (double number)
 void substraction(double firstNum, double SecondNum){   
     double result = firstNum - SecondNum;
     cout<<"Your Result: "<<result<<endl;
+    cout<<numberClassifier(firstNum)<<" + "<<numberClassifier(SecondNum)<<" = "<<numberClassifier(result)<<endl;
 }
 
 
