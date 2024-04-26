@@ -21,7 +21,7 @@ string numberClassifier (double number)
 void substraction(double firstNum, double SecondNum){   
     double result = firstNum - SecondNum;
     cout<<"Your Result: "<<result<<endl;
-    cout<<numberClassifier(firstNum)<<" + "<<numberClassifier(SecondNum)<<" = "<<numberClassifier(result)<<endl;
+    cout<<numberClassifier(firstNum)<<" - "<<numberClassifier(SecondNum)<<" = "<<numberClassifier(result)<<endl;
 }
 
 
@@ -32,7 +32,7 @@ void division(double dividend, double divisor) {
     if (divisor != 0) {
         double quotient = dividend / divisor;
         cout<< "Your Result: "<< quotient<<endl;
-        cout<<numberClassifier(dividend)<<"+"<<numberClassifier(divisor)<<"="<<numberClassifier(quotient)<<endl;
+        cout<<numberClassifier(dividend)<<"/"<<numberClassifier(divisor)<<"="<<numberClassifier(quotient)<<endl;
 
          
     } else {
