@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+int multiplication (int multiplicant, int multiplier){
+    return multiplicant * multiplier;
+}
+
 int main() {
     cout << "Enter your math expression, e.g., 5 + 2" << endl;
     int firstNumber, secondNumber;
