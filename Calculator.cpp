@@ -18,7 +18,7 @@ void division(double dividend, double divisor) {
     }
 }
 
-void summation (int firstNumber, int secondNumber){
+void summation (double firstNumber, double secondNumber){
     cout<< firstNumber + secondNumber << endl;
     return ;
 }
