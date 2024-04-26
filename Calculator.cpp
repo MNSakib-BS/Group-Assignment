@@ -43,6 +43,8 @@ void summation (double firstNumber, double secondNumber){
 
 void multiplication (double multiplicant, double multiplier){
     cout << "Your Result: " << multiplicant * multiplier << endl;
+    cout<<numberClassifier(multiplicant)<<"+"<<numberClassifier(multiplicant)<<"=";
+    cout<<numberClassifier(multiplicant * multiplicant)<<endl;
 }
 
 
