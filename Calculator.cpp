@@ -23,8 +23,8 @@ int summation (int firstNumber, int secondNumber){
 }
 
 
-int multiplication (int multiplicant, int multiplier){
-    return multiplicant * multiplier;
+void multiplication (double multiplicant, double multiplier){
+    cout << "Your Result: " << multiplicant * multiplier << endl;
 }
 
 
