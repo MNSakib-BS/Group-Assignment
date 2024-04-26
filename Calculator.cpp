@@ -18,7 +18,9 @@ int division(int dividend, int divisor) {
         return 0; 
     }
 }
-
+int summation (int firstNumber, int secondNumber){
+    return firstNumber + secondNumber;
+}
 
 
 int multiplication (int multiplicant, int multiplier){
