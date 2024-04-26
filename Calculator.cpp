@@ -1,6 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+void substraction(int firstNum, int SecondNum){
+    
+    int result = firstNum - SecondNum;
+    cout<<"Your Result: "<<result<<endl;
+}
+
 int main() {
     cout << "Enter your math expression, e.g., 5 + 2" << endl;
     int firstNumber, secondNumber;
