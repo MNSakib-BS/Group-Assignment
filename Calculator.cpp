@@ -21,16 +21,23 @@ string numberClassifier (double number)
 void substraction(double firstNum, double SecondNum){   
     double result = firstNum - SecondNum;
     cout<<"Your Result: "<<result<<endl;
+    cout<<numberClassifier(firstNum)<<" - "<<numberClassifier(SecondNum)<<" = "<<numberClassifier(result)<<endl;
 }
 
 
 
 void division(double dividend, double divisor) {
+
+    double quotient;
     if (divisor != 0) {
-        double result = dividend / divisor;
-        cout<< "Your Result: "<< result<<endl; 
+        double quotient = dividend / divisor;
+        cout<< "Your Result: "<< quotient<<endl;
+        cout<<numberClassifier(dividend)<<"/"<<numberClassifier(divisor)<<"="<<numberClassifier(quotient)<<endl;
+
+         
     } else {
         cout << "Error: Division by zero!" << endl;
+        return;
     }
 }
 
@@ -43,7 +50,7 @@ void summation (double firstNumber, double secondNumber){
 
 void multiplication (double multiplicant, double multiplier){
     cout << "Your Result: " << multiplicant * multiplier << endl;
-    cout<<numberClassifier(multiplicant)<<"+"<<numberClassifier(multiplier)<<"=";
+    cout<<numberClassifier(multiplicant)<<"*"<<numberClassifier(multiplier)<<"=";
     cout<<numberClassifier(multiplicant * multiplier)<<endl;
 }
 
