@@ -26,11 +26,17 @@ void substraction(double firstNum, double SecondNum){
 
 
 void division(double dividend, double divisor) {
+
+    double quotient;
     if (divisor != 0) {
-        double result = dividend / divisor;
-        cout<< "Your Result: "<< result<<endl; 
+        double quotient = dividend / divisor;
+        cout<< "Your Result: "<< quotient<<endl;
+        cout<<numberClassifier(dividend)<<"+"<<numberClassifier(divisor)<<"="<<numberClassifier(quotient)<<endl;
+
+         
     } else {
         cout << "Error: Division by zero!" << endl;
+        return;
     }
 }
 
