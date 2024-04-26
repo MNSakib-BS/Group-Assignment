@@ -10,14 +10,15 @@ void substraction(int firstNum, int SecondNum){
 
 
 
-int division(int dividend, int divisor) {
+void division(double dividend, double divisor) {
     if (divisor != 0) {
-        return dividend / divisor; 
+        double result = dividend / divisor;
+        cout<< "Your Result: "<< result<<endl; 
     } else {
-        std::cerr << "Error: Division by zero!" << std::endl;
-        return 0; 
+        cout << "Error: Division by zero!" << endl;
     }
 }
+
 int summation (int firstNumber, int secondNumber){
     return firstNumber + secondNumber;
 }
