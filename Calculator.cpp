@@ -2,6 +2,14 @@
 using namespace std;
 
 
+void substraction(int firstNum, int SecondNum){
+    
+    int result = firstNum - SecondNum;
+    cout<<"Your Result: "<<result<<endl;
+}
+
+
+
 int division(int dividend, int divisor) {
     if (divisor != 0) {
         return dividend / divisor; 
@@ -19,6 +27,7 @@ void summation (double firstNumber, double secondNumber){
 int multiplication (int multiplicant, int multiplier){
     return multiplicant * multiplier;
 }
+
 
 
 int main() {
